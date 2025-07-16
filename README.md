@@ -23,8 +23,7 @@ This is a **fully responsive one-page portfolio website** built using **pure HTM
 
 ## 📫 Contact
 Want a portfolio like this or custom website?  
-📧 Email: your-email@example.com  
-🌐 Portfolio: [your website link]
+📧 Email: sami583828@gamil.com 
 
 ---
 
