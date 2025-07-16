@@ -1,17 +1,31 @@
-# 🌐 Sami ur Rahman's Portfolio
+# 🌐 Responsive HTML CSS One Page Portfolio
 
-This is a simple one-page personal portfolio website built using **HTML5** and **CSS3**. It showcases my profile, skills, projects, and a contact section — all designed with a clean and modern layout.
+This is a **fully responsive one-page portfolio website** built using **pure HTML and CSS only** — no JavaScript or frameworks.
 
-> 🔧 Currently in development. Responsive layout and enhancements are coming soon!
+## 💼 Features
+- Clean and modern design
+- 100% responsive across all devices
+- Sections: Hero, About, Skills, Projects, Contact, Footer
+- CSS-only buttons, layout, and hover effects
+- Optimized with `flexbox`, `media queries`, and `object-fit`
 
-## 📌 Features
+## 📷 Preview
+![Screenshot](images/screenshot.jpg)
 
-- 🖼️ One-page layout
-- 🎨 Pure HTML & CSS design
-- 🧰 Custom sections:
-  - Hero section
-  - About Me
-  - Skills with descriptions
-  - Project cards
-  - Contact form with social icons
-- ⚙️ No frameworks or JavaScript used
+## 🚀 Live Demo
+**[View Live Website](https://sami-012.github.io/HTML-CSS-Portfolio/)**
+
+## 🛠 Built With
+- HTML5
+- CSS3 (Flexbox, Media Queries)
+
+---
+
+## 📫 Contact
+Want a portfolio like this or custom website?  
+📧 Email: your-email@example.com  
+🌐 Portfolio: [your website link]
+
+---
+
+> Created with ❤️ by **Sami ur Rahman**
