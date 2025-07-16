@@ -9,6 +9,8 @@ body {
     padding: 0px;
 }
 
+/*HEADER*/
+
 .hdr-container {
     background-color: #3d3d3d1a;
     height: 100px;
@@ -42,6 +44,8 @@ body {
 .nav-men ul li a:hover {
     color: #3B4CF1;
 }
+
+/* HERO SECTION */
 
 .hero {
     height: 100vh;
@@ -81,6 +85,8 @@ body {
     height: 82vh;
 }
 
+/*ABOUT SECTION*/
+
 .about {
     height: 100vh;
     display: flex;
@@ -104,6 +110,8 @@ body {
     border-radius: 20px;
 }
 
+/*SKILLS SECTION*/
+
 .hd {
     text-align: center;
     font-size: 32px;
@@ -116,7 +124,6 @@ body {
     height: 3px;
     background-color: #3B4CF1;
     margin: 5px auto 0;
-    /* auto centers it horizontally */
 }
 
 .skills {
@@ -125,15 +132,12 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    /* centers both rows vertically */
     gap: 30px 50px;
-    /* vertical and horizontal spacing */
     padding: 10px 50px;
 }
 
 .col-1 {
     flex: 30%;
-    /* Takes approx 30% width and allows wrapping */
     max-width: 30%;
     display: flex;
     flex-direction: column;
@@ -152,6 +156,8 @@ body {
     margin-bottom: -5px;
 }
 
+/*PROJECTS SECTIONS*/
+
 .bd {
     text-align: center;
     font-size: 32px;
@@ -164,7 +170,6 @@ body {
     height: 3px;
     background-color: #3B4CF1;
     margin: 5px auto 0;
-    /* auto centers it horizontally */
 }
 
 .projects-container {
@@ -217,6 +222,8 @@ body {
     font-weight: bold;
 }
 
+/*CONTACTS SECTION*/
+
 .contact-container {
     display: flex;
     height: 80vh;
@@ -229,7 +236,6 @@ body {
     padding: 20px 100px;
 }
 
-/* Left side image */
 .img-container {
     flex: 50%;
 }
@@ -241,7 +247,6 @@ body {
     border-radius: 20px;
 }
 
-/* Right side form */
 .formcontainer {
     flex: 50%;
     padding: 40px;
@@ -289,14 +294,12 @@ form::after {
     height: 1px;
     background-color: #757575;
     margin: 30px auto 0;
-    /* auto centers it horizontally */
 }
 
 .formcontainer button:hover {
     background-color: #2a39b9;
 }
 
-/* Social Icons */
 .social {
     display: flex;
     justify-content: center;
@@ -315,6 +318,8 @@ form::after {
     transform: scale(1.1);
 }
 
+/*FOOTER*/
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -328,4 +333,231 @@ footer {
     color: white;
     margin-right: 20px;
     font-size: 20px;
+}
+
+/*Resposiveness*/
+@media (max-width: 1024px) {
+    .col-1 {
+        flex: 45%;
+        max-width: 45%;
+    }
+
+    .projects-container {
+        flex-wrap: wrap;
+        padding: 40px 60px;
+        height: auto;
+    }
+
+    .projects-card {
+        flex: 45%;
+        max-width: 45%;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        height: auto;
+        padding: 40px 60px;
+    }
+
+    .img-container,
+    .formcontainer {
+        flex: 100%;
+        width: 100%;
+    }
+
+    .img-container img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .formcontainer {
+        padding: 0;
+    }
+
+    .formcontainer form {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .hdr-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 20px;
+        height: auto;
+    }
+
+    .nav-men ul {
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 0;
+        margin: 10px 0 0 0;
+    }
+
+    .nav-men ul li a {
+        font-size: 16px;
+    }
+
+    .hdr img {
+        width: 150px;
+        margin-bottom: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 40px 20px;
+        height: 40vh;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+        line-height: 48px;
+        margin-top: 40px;
+    }
+
+    .hero p {
+        font-size: 18px;
+        margin: 10px 0 20px 0;
+    }
+
+    .hero .btn {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 30px;
+        align-items: center;
+    }
+
+    .hero button {
+        padding: 12px 30px;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .uimg img {
+        display: none;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        padding: 40px 30px;
+    }
+
+    .two {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .two img {
+        width: 90%;
+        height: auto;
+    }
+
+    .one p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .skills {
+        height: auto;
+        flex-direction: column;
+        padding: 40px 30px;
+    }
+
+    .col-1 {
+        flex: 100%;
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .col-1 img {
+        width: 50px;
+    }
+
+    .col-1 h3 {
+        font-size: 20px;
+    }
+
+    .col-1 p {
+        font-size: 14px;
+    }
+
+    .hd {
+        font-size: 26px;
+    }
+
+    .hd::after {
+        width: 30%;
+    }
+
+    .projects-container {
+        flex-direction: column;
+        padding: 30px 30px;
+        gap: 30px;
+    }
+
+    .projects-card {
+        text-align: center;
+        flex: 100%;
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .projects-card img {
+        height: 250px;
+    }
+
+    .projects-card h3 {
+        font-size: 20px;
+    }
+
+    .projects-card p {
+        font-size: 14px;
+    }
+
+    .bd {
+        font-size: 26px;
+    }
+
+    .bd::after {
+        width: 60%;
+    }
+
+    .contact-container {
+        padding: 30px 20px;
+    }
+
+    .formcontainer input,
+    .formcontainer textarea {
+        font-size: 14px;
+        padding: 10px 12px;
+    }
+
+    .formcontainer button {
+        width: 100%;
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .social img {
+        width: 36px;
+        height: 36px;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+        padding: 20px 30px;
+    }
+
+    .foot-2 a {
+        margin: 0 10px;
+    }
 }
