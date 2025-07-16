@@ -10,7 +10,7 @@ This is a **fully responsive one-page portfolio website** built using **pure HTM
 - Optimized with `flexbox`, `media queries`, and `object-fit`
 
 ## 📷 Preview
-![Screenshot](images/screenshot.jpg)
+![Screenshot](images/screenshots/)
 
 ## 🚀 Live Demo
 **[View Live Website](https://sami-012.github.io/HTML-CSS-Portfolio/)**
